@@ -8,19 +8,19 @@ $stagaire=[ "stagaire_01"=>[
         ],
         ],
         "stagaire_02"=>[
-            "nom"=>"Dmytruk",
-         "prenom"=>"Yuliia",
+            "nom"=>"Kwizera",
+         "prenom"=>"Christophe",
         "Sites" => [
-            "SitePerso" => "https://julia-dm.github.io/TP-Prefo/",
-            "github" => "https://github.com/julia-dm",
+            "SitePerso" => "https://tp-prefo.vercel.app/",
+            "github" => "https://github.com/jiftuq",
         ],
         ],
         "stagaire_03"=>[
-            "nom"=>"Dmytruk",
-         "prenom"=>"Yuliia",
+            "nom"=>"Bouazza",
+         "prenom"=>"Soufiane",
         "Sites" => [
-            "SitePerso" => "https://julia-dm.github.io/TP-Prefo/",
-            "github" => "https://github.com/julia-dm",
+            "SitePerso" => "https://soufianebouazza-hub.github.io/TI-Prefo/parcour.html",
+            "github" => "https://github.com/soufianebouazza-hub",
         ],
         ],
       ];

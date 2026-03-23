@@ -30,3 +30,18 @@ Création des dossiers importants du site pour le MVC (Model View Controller)
 - 'View' (Dossier contenant les vues (Templates))
 - 'Controller' (Dossier qui gère le lien entre les "view" et les "model") Entre **Backend** et **Middle-end**
 - 'Data' - Nos fichiers de préparation du travail
+
+#### .gitkeep
+
+Mettez-y des '.gitkeep' dans chaque dossier et faites des commits. 
+
+
+#### Création du config.php 
+
+**Avant** La création de 'Stagiaire/Meidhy/MVC-19/config.php' ouvrez '.gitignore' et mettez-y : 
+
+'''bash 
+
+# 'Stagiaire/Meidhy/MVC-19/.gitignore'
+
+'''

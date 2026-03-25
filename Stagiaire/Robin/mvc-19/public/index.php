@@ -1,17 +1,29 @@
 <?php
 # Stagiaire/Robin/mvc-19/public/index.php
 
-# ICI
+# CONTROLEUR FRONTAL
 /*
  Chargement une seule fois et qui arrête 
 le script en cas d'échec 
 */
 require_once "../config.php";
 
-# Affichage de la racine du projet
-echo 'Racine du projet dans ROOTH_PATH : '.ROOT_PATH;
+// Si il n'existe pas de variable GET nommée 'page'
+if(!isset($_GET['page'])) {
+    // On charge la page d'accueil
+    include ROOT_PATH."/view/index.php";
 
-echo "<hr>";
+// Sinon si la variable get 'page' a une valeur
+// acceptée dans la constante de type array PUBLIC_PAGES
+}else if(in_array($_GET['page'],PUBLIC_PAGES)){
 
-# Affichage du __DIR__
-echo 'Chemin vers le dossier public via __DIR__: '.__DIR__;
+    // Si la variable GET correspond à une valeur
+    // acceptée dans le tableau
+    include ROOT_PATH."/view/".$_GET['page'].".php";
+}
+// sinon, la variable get page egiste
+// mais n'est pas valide
+else {
+    // Appel de l'erreur 404
+    include ROOT_PATH."/view/404.php";
+}

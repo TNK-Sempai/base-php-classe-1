@@ -6,5 +6,5 @@ config.php
 
 #On refuse tout les fichers de datas
 datas/*
-# Sauf le fichier zipper 
-!datas/!projet.zip
+# Sauf le fichier zippé qu'on va garder
+!datas/projet.zip

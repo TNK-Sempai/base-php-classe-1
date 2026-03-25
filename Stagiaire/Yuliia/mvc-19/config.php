@@ -7,3 +7,6 @@
 # __DIR__ constante magique qui donnera
 # le chemin absolu vers la racine du projet 
 const ROOT_PATH=__DIR__;
+const PUBLIC_PAGES = [
+    
+];

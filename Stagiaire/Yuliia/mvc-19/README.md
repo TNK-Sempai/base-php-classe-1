@@ -52,3 +52,7 @@ Créez le fichier `config.php` à la racine du projet. Il est protégé grâce a
 
 Le front controller, nomme `public/index.php`, est le seul fichier `php`qui sera accessible à un utilisateru externe.
 
+#### Création du config.php
+Il va devoir Recréer config.php pour accéder aux contantes de sécurité.
+        cp config.ini.php config.php
+

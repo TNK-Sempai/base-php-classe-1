@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<p><?=__DIR__?></p>
     <header>
         <?php
         include 'inc/navbar.php';
